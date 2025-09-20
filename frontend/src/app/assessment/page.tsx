@@ -105,6 +105,9 @@ export default function AssessmentPage() {
 
     try {
       const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://pathway-ai-backend.onrender.com';
+      console.log('Using API URL:', apiUrl);
+      console.log('Form data being sent:', formData);
+      
       const response = await fetch(`${apiUrl}/recommend`, {
         method: 'POST',
         headers: {
@@ -135,7 +138,10 @@ export default function AssessmentPage() {
       router.push('/results');
       
     } catch (err) {
+      console.error('Assessment error:', err);
       if (err instanceof Error) {
+        console.error('Error message:', err.message);
+        console.error('Error name:', err.name);
         // Handle specific network errors
         if (err.message.includes('fetch') || err.message.includes('Failed to fetch')) {
           setError('Unable to connect to the server. Please check your internet connection and ensure the backend is accessible.');

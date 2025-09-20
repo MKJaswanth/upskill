@@ -1,0 +1,47 @@
+{
+  "recommendations": [
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "category": "Technology",
+      "description": "Design, develop, and maintain software applications and systems using various programming languages and frameworks.",
+      "match_score": 0.85,
+      "matched_skills": ["Programming", "Problem Solving", "JavaScript"],
+      "missing_skills": ["Data Structures", "Algorithms", "Version Control"],
+      "experience_level": "Entry to Senior",
+      "salary_range": "$60,000 - $150,000",
+      "education": "Bachelor's in Computer Science or related field"
+    },
+    {
+      "id": 2,
+      "title": "Data Scientist",
+      "category": "Technology",
+      "description": "Analyze complex data sets to extract insights and build predictive models using statistical methods and machine learning.",
+      "match_score": 0.72,
+      "matched_skills": ["Python", "Data Analysis", "Problem Solving"],
+      "missing_skills": ["R", "Statistics", "Machine Learning", "SQL", "Data Visualization"],
+      "experience_level": "Mid to Senior",
+      "salary_range": "$80,000 - $180,000",
+      "education": "Master's in Data Science, Statistics, or related field"
+    },
+    {
+      "id": 3,
+      "title": "UX/UI Designer",
+      "category": "Design",
+      "description": "Create user-centered designs for digital products, focusing on usability, accessibility, and visual appeal.",
+      "match_score": 0.58,
+      "matched_skills": ["Design", "Problem Solving"],
+      "missing_skills": ["Figma", "Adobe Creative Suite", "User Research", "Prototyping", "Wireframing", "Design Systems"],
+      "experience_level": "Entry to Senior",
+      "salary_range": "$50,000 - $120,000",
+      "education": "Bachelor's in Design, HCI, or related field"
+    }
+  ],
+  "total_careers_analyzed": 25,
+  "user_profile": {
+    "skills": ["Python", "JavaScript", "Programming", "Problem Solving", "Data Analysis", "Design"],
+    "interests": ["Technology", "Programming", "AI", "Web Development", "Design"],
+    "experience_level": "Entry Level (0-2 years)",
+    "preferred_categories": ["Technology", "Design"]
+  }
+}

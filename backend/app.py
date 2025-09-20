@@ -11,7 +11,7 @@ app = FastAPI(title="Pathway AI Backend", version="1.0.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -51,6 +51,16 @@ def load_careers_data():
         return []
 
 careers_data = load_careers_data()
+
+# Add explicit OPTIONS handlers for CORS preflight requests
+@app.options("/")
+@app.options("/health")  
+@app.options("/recommend")
+@app.options("/api/careers")
+@app.options("/api/categories")
+@app.options("/api/skills")
+async def options_handler():
+    return {"message": "OK"}
 
 @app.get("/")
 async def root():

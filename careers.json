@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "category": "Technology",
+    "description": "Design, develop, and maintain software applications and systems using various programming languages and frameworks.",
+    "required_skills": ["Programming", "Problem Solving", "Data Structures", "Algorithms", "Version Control"],
+    "experience_level": "Entry to Senior",
+    "salary_range": "$60,000 - $150,000",
+    "education": "Bachelor's in Computer Science or related field"
+  },
+  {
+    "id": 2,
+    "title": "Data Scientist",
+    "category": "Technology",
+    "description": "Analyze complex data sets to extract insights and build predictive models using statistical methods and machine learning.",
+    "required_skills": ["Python", "R", "Statistics", "Machine Learning", "SQL", "Data Visualization"],
+    "experience_level": "Mid to Senior",
+    "salary_range": "$80,000 - $180,000",
+    "education": "Master's in Data Science, Statistics, or related field"
+  },
+  {
+    "id": 3,
+    "title": "UX/UI Designer",
+    "category": "Design",
+    "description": "Create user-centered designs for digital products, focusing on usability, accessibility, and visual appeal.",
+    "required_skills": ["Figma", "Adobe Creative Suite", "User Research", "Prototyping", "Wireframing", "Design Systems"],
+    "experience_level": "Entry to Senior",
+    "salary_range": "$50,000 - $120,000",
+    "education": "Bachelor's in Design, HCI, or related field"
+  },
+  {
+    "id": 4,
+    "title": "Digital Marketing Manager",
+    "category": "Marketing",
+    "description": "Develop and execute digital marketing strategies across various channels to drive brand awareness and customer acquisition.",
+    "required_skills": ["SEO/SEM", "Social Media Marketing", "Google Analytics", "Content Marketing", "Email Marketing", "Campaign Management"],
+    "experience_level": "Mid to Senior",
+    "salary_range": "$55,000 - $130,000",
+    "education": "Bachelor's in Marketing, Business, or related field"
+  },
+  {
+    "id": 5,
+    "title": "Cybersecurity Analyst",
+    "category": "Technology",
+    "description": "Protect organizations from cyber threats by monitoring systems, analyzing security breaches, and implementing security measures.",
+    "required_skills": ["Network Security", "Incident Response", "Risk Assessment", "Security Tools", "Compliance", "Forensics"],
+    "experience_level": "Mid to Senior",
+    "salary_range": "$70,000 - $160,000",
+    "education": "Bachelor's in Cybersecurity, Computer Science, or related field"
+  },
+  {
+    "id": 6,
+    "title": "Product Manager",
+    "category": "Business",
+    "description": "Lead product development from conception to launch, working with cross-functional teams to deliver value to customers.",
+    "required_skills": ["Product Strategy", "Market Research", "Agile/Scrum", "Data Analysis", "Stakeholder Management", "User Stories"],
+    "experience_level": "Mid to Senior",
+    "salary_range": "$80,000 - $180,000",
+    "education": "Bachelor's in Business, Engineering, or related field"
+  },
+  {
+    "id": 7,
+    "title": "DevOps Engineer",
+    "category": "Technology",
+    "description": "Bridge development and operations by automating deployment processes and maintaining infrastructure.",
+    "required_skills": ["Docker", "Kubernetes", "CI/CD", "Cloud Platforms", "Infrastructure as Code", "Monitoring"],
+    "experience_level": "Mid to Senior",
+    "salary_range": "$75,000 - $170,000",
+    "education": "Bachelor's in Computer Science or related field"
+  },
+  {
+    "id": 8,
+    "title": "Financial Analyst",
+    "category": "Finance",
+    "description": "Analyze financial data to help organizations make informed investment and business decisions.",
+    "required_skills": ["Financial Modeling", "Excel", "SQL", "Risk Analysis", "Valuation", "Reporting"],
+    "experience_level": "Entry to Mid",
+    "salary_range": "$55,000 - $100,000",
+    "education": "Bachelor's in Finance, Economics, or related field"
+  },
+  {
+    "id": 9,
+    "title": "Content Writer",
+    "category": "Marketing",
+    "description": "Create engaging written content for websites, blogs, social media, and marketing materials.",
+    "required_skills": ["Writing", "SEO", "Content Strategy", "Research", "Editing", "Social Media"],
+    "experience_level": "Entry to Mid",
+    "salary_range": "$35,000 - $80,000",
+    "education": "Bachelor's in English, Journalism, or related field"
+  },
+  {
+    "id": 10,
+    "title": "Sales Representative",
+    "category": "Sales",
+    "description": "Build relationships with clients and prospects to sell products or services and meet sales targets.",
+    "required_skills": ["Communication", "Negotiation", "CRM", "Lead Generation", "Relationship Building", "Presentation"],
+    "experience_level": "Entry to Senior",
+    "salary_range": "$40,000 - $120,000",
+    "education": "High School Diploma or Bachelor's degree"
+  },
+  {
+    "id": 11,
+    "title": "Project Manager",
+    "category": "Business",
+    "description": "Plan, execute, and oversee projects to ensure they are completed on time, within budget, and meet objectives.",
+    "required_skills": ["Project Planning", "Risk Management", "Team Leadership", "Budgeting", "Agile/Scrum", "Communication"],
+    "experience_level": "Mid to Senior",
+    "salary_range": "$65,000 - $140,000",
+    "education": "Bachelor's in Business, Engineering, or related field"
+  },
+  {
+    "id": 12,
+    "title": "Graphic Designer",
+    "category": "Design",
+    "description": "Create visual concepts using computer software or by hand to communicate ideas that inspire and inform consumers.",
+    "required_skills": ["Adobe Creative Suite", "Typography", "Color Theory", "Branding", "Layout Design", "Print Design"],
+    "experience_level": "Entry to Mid",
+    "salary_range": "$40,000 - $80,000",
+    "education": "Bachelor's in Graphic Design or related field"
+  },
+  {
+    "id": 13,
+    "title": "Business Analyst",
+    "category": "Business",
+    "description": "Analyze business processes and requirements to help organizations improve efficiency and make data-driven decisions.",
+    "required_skills": ["Data Analysis", "Process Mapping", "Requirements Gathering", "SQL", "Excel", "Stakeholder Management"],
+    "experience_level": "Entry to Mid",
+    "salary_range": "$55,000 - $110,000",
+    "education": "Bachelor's in Business, Economics, or related field"
+  },
+  {
+    "id": 14,
+    "title": "Mobile App Developer",
+    "category": "Technology",
+    "description": "Design and develop mobile applications for iOS and Android platforms using various programming languages and frameworks.",
+    "required_skills": ["Swift", "Kotlin", "React Native", "Flutter", "Mobile UI/UX", "API Integration"],
+    "experience_level": "Entry to Senior",
+    "salary_range": "$60,000 - $140,000",
+    "education": "Bachelor's in Computer Science or related field"
+  },
+  {
+    "id": 15,
+    "title": "Human Resources Manager",
+    "category": "Human Resources",
+    "description": "Oversee HR functions including recruitment, employee relations, benefits administration, and policy development.",
+    "required_skills": ["Recruitment", "Employee Relations", "HRIS", "Labor Law", "Performance Management", "Training"],
+    "experience_level": "Mid to Senior",
+    "salary_range": "$60,000 - $130,000",
+    "education": "Bachelor's in Human Resources, Business, or related field"
+  },
+  {
+    "id": 16,
+    "title": "Cloud Architect",
+    "category": "Technology",
+    "description": "Design and implement cloud infrastructure solutions to support business applications and data storage needs.",
+    "required_skills": ["AWS", "Azure", "Google Cloud", "Infrastructure Design", "Security", "Cost Optimization"],
+    "experience_level": "Senior",
+    "salary_range": "$100,000 - $200,000",
+    "education": "Bachelor's in Computer Science or related field"
+  },
+  {
+    "id": 17,
+    "title": "Marketing Analyst",
+    "category": "Marketing",
+    "description": "Analyze marketing data and campaigns to measure effectiveness and provide insights for optimization.",
+    "required_skills": ["Google Analytics", "Excel", "SQL", "A/B Testing", "Data Visualization", "Campaign Analysis"],
+    "experience_level": "Entry to Mid",
+    "salary_range": "$45,000 - $90,000",
+    "education": "Bachelor's in Marketing, Statistics, or related field"
+  },
+  {
+    "id": 18,
+    "title": "Quality Assurance Engineer",
+    "category": "Technology",
+    "description": "Test software applications to ensure they meet quality standards and function correctly before release.",
+    "required_skills": ["Test Planning", "Automated Testing", "Bug Tracking", "Selenium", "API Testing", "Performance Testing"],
+    "experience_level": "Entry to Mid",
+    "salary_range": "$50,000 - $100,000",
+    "education": "Bachelor's in Computer Science or related field"
+  },
+  {
+    "id": 19,
+    "title": "Operations Manager",
+    "category": "Business",
+    "description": "Oversee daily operations to ensure efficiency, quality, and customer satisfaction across various business functions.",
+    "required_skills": ["Process Improvement", "Team Management", "Budget Management", "Supply Chain", "Quality Control", "Strategic Planning"],
+    "experience_level": "Mid to Senior",
+    "salary_range": "$65,000 - $140,000",
+    "education": "Bachelor's in Business, Operations, or related field"
+  },
+  {
+    "id": 20,
+    "title": "Social Media Manager",
+    "category": "Marketing",
+    "description": "Manage social media presence across platforms, create content, and engage with audiences to build brand awareness.",
+    "required_skills": ["Social Media Platforms", "Content Creation", "Community Management", "Analytics", "Brand Voice", "Influencer Relations"],
+    "experience_level": "Entry to Mid",
+    "salary_range": "$40,000 - $80,000",
+    "education": "Bachelor's in Marketing, Communications, or related field"
+  },
+  {
+    "id": 21,
+    "title": "Machine Learning Engineer",
+    "category": "Technology",
+    "description": "Design and implement machine learning models and systems to solve complex business problems.",
+    "required_skills": ["Python", "TensorFlow", "PyTorch", "Machine Learning", "Deep Learning", "Model Deployment"],
+    "experience_level": "Mid to Senior",
+    "salary_range": "$90,000 - $200,000",
+    "education": "Master's in Computer Science, AI, or related field"
+  },
+  {
+    "id": 22,
+    "title": "Customer Success Manager",
+    "category": "Business",
+    "description": "Ensure customer satisfaction and retention by providing support, training, and strategic guidance.",
+    "required_skills": ["Customer Relationship Management", "Problem Solving", "Training", "Analytics", "Communication", "Product Knowledge"],
+    "experience_level": "Mid to Senior",
+    "salary_range": "$55,000 - $120,000",
+    "education": "Bachelor's in Business, Communications, or related field"
+  },
+  {
+    "id": 23,
+    "title": "Technical Writer",
+    "category": "Technology",
+    "description": "Create clear and concise technical documentation, user manuals, and help guides for software and products.",
+    "required_skills": ["Technical Writing", "Documentation Tools", "Research", "Editing", "User Experience", "Version Control"],
+    "experience_level": "Entry to Mid",
+    "salary_range": "$45,000 - $85,000",
+    "education": "Bachelor's in English, Technical Writing, or related field"
+  },
+  {
+    "id": 24,
+    "title": "Business Development Manager",
+    "category": "Business",
+    "description": "Identify new business opportunities, build partnerships, and develop strategies to grow revenue and market share.",
+    "required_skills": ["Market Research", "Partnership Development", "Sales Strategy", "Negotiation", "Strategic Planning", "Networking"],
+    "experience_level": "Mid to Senior",
+    "salary_range": "$70,000 - $150,000",
+    "education": "Bachelor's in Business, Marketing, or related field"
+  },
+  {
+    "id": 25,
+    "title": "Full Stack Developer",
+    "category": "Technology",
+    "description": "Develop both frontend and backend components of web applications using various technologies and frameworks.",
+    "required_skills": ["JavaScript", "React", "Node.js", "Database Management", "API Development", "Version Control"],
+    "experience_level": "Entry to Senior",
+    "salary_range": "$65,000 - $150,000",
+    "education": "Bachelor's in Computer Science or related field"
+  }
+]

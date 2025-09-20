@@ -104,7 +104,8 @@ export default function AssessmentPage() {
     setError(null);
 
     try {
-      const response = await fetch('http://localhost:8000/recommend', {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://pathway-ai-backend.onrender.com';
+      const response = await fetch(`${apiUrl}/recommend`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -116,7 +117,7 @@ export default function AssessmentPage() {
         // Check if response is HTML (error page) instead of JSON
         const contentType = response.headers.get('content-type');
         if (contentType && contentType.includes('text/html')) {
-          throw new Error('Backend server is not responding properly. Please make sure the FastAPI backend is running on http://localhost:8000');
+          throw new Error('Backend server is not responding properly. Please check your internet connection and ensure the backend is accessible.');
         }
         
         try {
@@ -137,7 +138,7 @@ export default function AssessmentPage() {
       if (err instanceof Error) {
         // Handle specific network errors
         if (err.message.includes('fetch') || err.message.includes('Failed to fetch')) {
-          setError('Unable to connect to the server. Please make sure the FastAPI backend is running on http://localhost:8000');
+          setError('Unable to connect to the server. Please check your internet connection and ensure the backend is accessible.');
         } else {
           setError(err.message);
         }

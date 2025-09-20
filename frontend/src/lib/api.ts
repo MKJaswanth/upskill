@@ -60,7 +60,7 @@ export async function getRecommendations(
       try {
         const errorData: ApiError = await response.json();
         throw new Error(errorData.detail || `HTTP error! status: ${response.status}`);
-      } catch (jsonError) {
+      } catch {
         throw new Error(`Server error: ${response.status} ${response.statusText}`);
       }
     }

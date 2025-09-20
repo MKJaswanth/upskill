@@ -122,7 +122,7 @@ export default function AssessmentPage() {
         try {
           const errorData = await response.json();
           throw new Error(errorData.detail || 'Failed to get recommendations');
-        } catch (jsonError) {
+        } catch {
           throw new Error(`Server error: ${response.status} ${response.statusText}`);
         }
       }
@@ -232,7 +232,7 @@ export default function AssessmentPage() {
               Experience Level
             </h2>
             <p className="text-gray-600 mb-4">
-              What's your current experience level?
+              What&apos;s your current experience level?
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {EXPERIENCE_LEVELS.map((level) => (

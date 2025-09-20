@@ -85,7 +85,7 @@ export default function ResultsPage() {
           <div className="bg-white rounded-lg shadow-lg p-8">
             <h1 className="text-2xl font-bold text-gray-900 mb-4">No Results Found</h1>
             <p className="text-gray-600 mb-6">
-              It looks like you haven't completed an assessment yet. Let's get started!
+              It looks like you haven&apos;t completed an assessment yet. Let&apos;s get started!
             </p>
             <button
               onClick={() => router.push('/assessment')}

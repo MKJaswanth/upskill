@@ -25,7 +25,7 @@ export default function BackendStatus({ className = '' }: BackendStatusProps) {
       } else {
         setStatus('offline');
       }
-    } catch (error) {
+    } catch {
       setStatus('offline');
     }
     

@@ -104,17 +104,32 @@ export default function AssessmentPage() {
     setError(null);
 
     try {
+      // Try direct backend connection first, then fallback to API route
       const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://pathway-ai-backend.onrender.com';
       console.log('Using API URL:', apiUrl);
       console.log('Form data being sent:', formData);
       
-      const response = await fetch(`${apiUrl}/recommend`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+      let response;
+      try {
+        // First attempt: Direct backend connection
+        response = await fetch(`${apiUrl}/recommend`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+      } catch (directError) {
+        console.log('Direct connection failed, trying API route:', directError);
+        // Fallback: Use Next.js API route
+        response = await fetch('/api/recommend', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+      }
 
       if (!response.ok) {
         // Check if response is HTML (error page) instead of JSON

@@ -81,7 +81,7 @@ Once deployed, test your backend:
 
 1. **Update API URL** in `frontend/src/lib/api.ts`:
 ```typescript
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://your-backend-url.onrender.com';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://pathway-ai-backend.onrender.com';
 ```
 
 2. **Create Environment File**:
@@ -92,7 +92,7 @@ cp env.example .env.local
 
 3. **Update `.env.local`**:
 ```env
-NEXT_PUBLIC_API_URL=https://your-backend-url.onrender.com
+NEXT_PUBLIC_API_URL=https://pathway-ai-backend.onrender.com
 ```
 
 ### Step 2: Deploy to Vercel
@@ -107,7 +107,7 @@ NEXT_PUBLIC_API_URL=https://your-backend-url.onrender.com
    - **Build Command**: `npm run build`
    - **Output Directory**: `.next`
 6. **Add Environment Variable**:
-   - `NEXT_PUBLIC_API_URL`: `https://your-backend-url.onrender.com`
+   - `NEXT_PUBLIC_API_URL`: `https://pathway-ai-backend.onrender.com`
 7. **Click "Deploy"**
 
 ### Step 3: Test Frontend Deployment
@@ -177,7 +177,7 @@ services:
 #### `frontend/env.example`
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:8000
-# NEXT_PUBLIC_API_URL=https://your-backend-url.onrender.com
+# NEXT_PUBLIC_API_URL=https://pathway-ai-backend.onrender.com
 ```
 
 ## 🧪 Part 4: Testing Deployment

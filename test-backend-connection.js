@@ -1,5 +1,5 @@
 // Simple test to check backend connection
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://pathway-ai-backend.onrender.com';
 
 async function testBackendConnection() {
   console.log('Testing backend connection...');

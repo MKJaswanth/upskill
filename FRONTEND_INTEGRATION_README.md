@@ -139,13 +139,13 @@ Analyze skill gaps → Take new assessment or return home
 ### Environment Variables
 ```bash
 # .env.local
-NEXT_PUBLIC_API_URL=http://localhost:8000
+NEXT_PUBLIC_API_URL=https://pathway-ai-backend.onrender.com
 ```
 
 ### API Configuration
 ```typescript
 // src/lib/api.ts
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://pathway-ai-backend.onrender.com';
 ```
 
 ## 🧪 Testing the Integration

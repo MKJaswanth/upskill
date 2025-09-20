@@ -8,7 +8,7 @@ import requests
 import json
 
 # API base URL
-BASE_URL = "http://localhost:8000"
+BASE_URL = "https://pathway-ai-backend.onrender.com"
 
 def test_recommendation_endpoint():
     """Test the recommendation endpoint with sample data."""
@@ -89,7 +89,7 @@ def test_recommendation_endpoint():
                 print(f"Response: {response.text}")
                 
         except requests.exceptions.ConnectionError:
-            print("❌ Connection Error: Make sure the backend is running on http://localhost:8000")
+            print("❌ Connection Error: Unable to connect to the backend server. Check your internet connection.")
             break
         except Exception as e:
             print(f"❌ Error: {e}")
@@ -135,8 +135,7 @@ def main():
     """Main test function."""
     print("🚀 Recommendation Engine Test Suite")
     print("=" * 60)
-    print("Make sure the FastAPI backend is running on http://localhost:8000")
-    print("Start it with: cd backend && python -m uvicorn main:app --reload")
+    print("Testing backend at: https://pathway-ai-backend.onrender.com")
     print()
     
     # Test other endpoints first
@@ -147,7 +146,7 @@ def main():
     
     print("\n\n🎉 Test completed!")
     print("\nTo test manually:")
-    print("1. Visit http://localhost:8000/docs for interactive API documentation")
+    print("1. Visit https://pathway-ai-backend.onrender.com/docs for interactive API documentation")
     print("2. Use the /recommend endpoint with your own data")
     print("3. Try different combinations of skills and interests")
 

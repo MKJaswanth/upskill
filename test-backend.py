@@ -2,7 +2,7 @@ import requests
 import json
 
 def test_backend():
-    base_url = "http://localhost:8000"
+    base_url = "https://pathway-ai-backend.onrender.com"
     
     print("Testing backend endpoints...")
     
